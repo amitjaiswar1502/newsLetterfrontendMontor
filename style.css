@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.brand {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.nav-bar > a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+/* container */
+.container {
+  position: relative;
+  left: 120px;
+  overflow-x: hidden;
+}
+
+
+/* ....grid */
+.main-grid  {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+
+.top-banner {
+  background-image: url("./assets/images/image-web-3-desktop.jpg");
+  grid-column: span 2;
+  position: relative;
+  background-size: cover;
+}
+
+.new-banner {
+  grid-row: span 2;
+  background-color: black;
+  background-repeat: no-repeat;
+  color: white;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 350px;
+}
+
+.new-banner > h2 {
+  color: rgb(249, 216, 6);
+  padding: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.new-banner > h3 {
+  margin: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.new-banner > p {
+  margin: 20px;
+  color: rgb(160, 152, 152);
+}
+
+.new-banner > hr {
+  margin: auto 20px;
+  border: 1px solid rgb(59, 55, 55);
+}
+
+.top-banner-heading {
+  grid-column: span 1;
+  position: relative;
+}
+
+.top-banner-description {
+  grid-column: span 1;
+}
+
+/* top-banner-heading */
+.top-banner-heading {
+  font-size: 2.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+/* top-banner-description */
+.top-banner-description {
+  position: relative;
+  margin: 20px auto;
+  line-height: 25px;
+}
+
+.top-banner-description > button {
+  position: relative;
+  top: 130px;
+  left: 0;
+  padding: 15px 25px;
+  background-color: rgb(242, 98, 36);
+  color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+/* bottom section */
+.retro-pc {
+  grid-column: span 1;
+  background-image: url("./assets/images/image-retro-pcs.jpg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 180px;
+  background-size: cover;
+}
+
+.retro-pc > h3,
+h4,
+.bottom-para {
+  position: relative;
+  left: 180px;
+}
+
+.retro-pc > h3 {
+  font-size: 2rem;
+  color: rgb(221, 211, 211);
+}
+
+.retro-pc > h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+/* laptop-section */
+.laptop {
+  grid-column: span 1;
+  background-image: url("./assets/images/image-top-laptops.jpg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 180px;
+  background-size: cover;
+}
+
+.laptop > h3,
+h4,
+.bottom-para {
+  position: relative;
+  left: 180px;
+}
+
+.laptop > h3 {
+  font-size: 2rem;
+  color: rgb(221, 211, 211);
+}
+
+.laptop > h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+/* gaming-section */
+
+.gaming {
+  grid-column: span 1;
+  background-image: url("./assets/images/image-gaming-growth.jpg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 180px;
+  background-size: cover;
+}
+
+.gaming > h3,
+h4,
+.bottom-para {
+  position: relative;
+  left: 180px;
+}
+
+.gaming > h3 {
+  font-size: 2rem;
+  color: rgb(221, 211, 211);
+}
+
+.gaming > h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+
+/* footer */
+/* .attribution {
+  width: 100%;
+padding: 50px auto;
+background-color: black;
+color: white;
+  
+} */
